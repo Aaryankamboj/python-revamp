@@ -7,7 +7,7 @@ if (a>b):
 '''
 
 #x = complex(4j)
-x = list((5,3,6))
+'''x = list((5,3,6))
 print(x)
 print(type(x))
 
@@ -16,4 +16,5 @@ print(fl)
 
 bd = 10
 tmp = float(bd)
-print(tmp)
+print(tmp)'''
+
