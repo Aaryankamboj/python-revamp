@@ -134,3 +134,51 @@ while i< j:
     i+=1
     j-=1
 print(test)
+
+
+# Level 3 question 
+
+nums = [10, 3, 5, 12, 7, 9, 11]
+# prime nums = 3,5,7,11
+
+#10%1 ==0 
+p_nums=list(())
+n=len(nums)
+'''
+
+i=10, 3, 9
+j = 2 -> 7
+9%2!=0
+
+'''
+
+for i in nums:
+    if i < 2:
+        continue
+    
+    flag = True
+    for j in range(2, i):
+        if i%j == 0:
+            flag=False
+            break
+    
+    if flag: 
+        p_nums.append(i)
+
+print(p_nums)
+
+
+
+#q2
+
+evens = []
+odds = []
+
+for i in range(len(nums)):
+    if((nums[i]&1)==0):
+        evens.append(nums[i])
+    else:
+        odds.append(nums[i])
+print(f"Evens {evens}")
+print()
+print(f"Odds {odds}")
