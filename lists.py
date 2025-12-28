@@ -38,7 +38,7 @@ sample[0:2] = list(("name", "umar"))
 print(sample)
 sample[0:2] = ["details"]
 print(sample)
-sample.insert(4, "False")
+sample.insert(4, "False") # To insert an element at specific position
 print(sample)
 
 name = input("Enter your name ")

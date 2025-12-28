@@ -182,3 +182,5 @@ for i in range(len(nums)):
 print(f"Evens {evens}")
 print()
 print(f"Odds {odds}")
+
+

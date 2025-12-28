@@ -19,3 +19,4 @@ dup_list = list()
 [dup_list.append(x+2) for x in list2]
 print(dup_list)
 
+
