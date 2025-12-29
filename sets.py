@@ -97,3 +97,8 @@ a.intersection_update(b)
 f=a.intersection(b)
 print(a, "This is 'a' set")
 print(f, "This is a 'F' set")
+
+f.add("Ajit")
+print(f)
+cp = f.copy()
+print(cp)

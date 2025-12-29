@@ -12,4 +12,7 @@ print(flag)
 
 z = c.issubset(a)
 z = c <=a
+z= c.issuperset(a)
+print(z)
+
 print(z)
